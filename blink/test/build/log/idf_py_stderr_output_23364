@@ -1,0 +1,65 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- idf_monitor on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008117c: call_start_cpu1 at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d781f: task_wdt_timeout_handling at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d79a6: task_wdt_isr at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082a15: _xt_lowint1 at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d5e42: esp_unity_readline at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:40
+[0m
+[0;33m0x400d5f2e: unity_gets at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:88
+[0m
+[0;33m0x400d5d57: unity_run_menu at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_runner.c:270
+[0m
+[0;33m0x400d5faa: app_main at K:/ESP-IDF/PROJECT/Unit_test/blink/test/main/test_blink_main.c:34
+[0m
+[0;33m0x400e3a44: main_task at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d781f: task_wdt_timeout_handling at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d79a6: task_wdt_isr at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082a15: _xt_lowint1 at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d5e42: esp_unity_readline at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:40
+[0m
+[0;33m0x400d5f2e: unity_gets at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:88
+[0m
+[0;33m0x400d5d57: unity_run_menu at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_runner.c:270
+[0m
+[0;33m0x400d5faa: app_main at K:/ESP-IDF/PROJECT/Unit_test/blink/test/main/test_blink_main.c:34
+[0m
+[0;33m0x400e3a44: main_task at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d781f: task_wdt_timeout_handling at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d79a6: task_wdt_isr at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082a15: _xt_lowint1 at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400092d6: uart_rx_one_char in ROM
+[0m
+[0;33m0x400d5e45: esp_unity_readline at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:40
+[0m
+[0;33m0x400d5f2e: unity_gets at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_port_esp32.c:88
+[0m
+[0;33m0x400d5d57: unity_run_menu at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/unity/unity_runner.c:270
+[0m
+[0;33m0x400d5faa: app_main at K:/ESP-IDF/PROJECT/Unit_test/blink/test/main/test_blink_main.c:34
+[0m
+[0;33m0x400e3a44: main_task at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at K:/ESP-IDF/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m
